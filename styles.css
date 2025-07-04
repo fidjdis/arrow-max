@@ -1,0 +1,62 @@
+/* styles.css */
+
+:root {
+    --main-bg: #f8fafc;
+    --accent: #008080;
+    --text-dark: #222;
+    --text-light: #fff;
+    --header-bg: #333;
+    --footer-bg: #222;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--main-bg);
+    color: var(--text-dark);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: var(--header-bg);
+    color: var(--text-light);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+main {
+    flex: 1;
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+footer {
+    background: var(--footer-bg);
+    color: var(--text-light);
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.95rem;
+    border-radius: 0 0 1rem 1rem;
+}
